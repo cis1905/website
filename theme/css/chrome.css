@@ -556,6 +556,10 @@ ul#searchresults span.teaser em {
     height: 3px;
     margin: 5px 0px;
 }
+.chapter {
+    font-size: 1.5em;
+    padding: 0 24px;
+}
 .chapter .spacer {
     background-color: var(--sidebar-spacer);
 }
