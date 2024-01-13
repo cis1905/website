@@ -55,9 +55,7 @@ jobs:
       run: |
         mdbook build
     - name: Add CNAME
-      run: |
-        # make new file called CNAME secrets.CNAME
-        echo "$CNAME" > book/CNAME
+      run: echo "$CNAME" > book/CNAME
       env:
         CNAME: ${{ secrets.CNAME }}
     - name: Deploy to gh-pages
