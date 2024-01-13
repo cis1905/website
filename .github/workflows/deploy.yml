@@ -54,6 +54,12 @@ jobs:
     - name: Build book
       run: |
         mdbook build
+    - name: Add CNAME
+      run: |
+        # make new file called CNAME secrets.CNAME
+        echo "$CNAME" > book/CNAME
+      env:
+        CNAME: ${{ secrets.CNAME }}
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
