@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="light" dir="">
+<html lang="en" class="ayu" dir="">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -30,7 +30,7 @@
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "ayu" : "ayu";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -55,7 +55,7 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('light')
+            html.classList.remove('ayu')
             html.classList.add(theme);
             var body = document.querySelector('body');
             body.classList.remove('no-js')
@@ -179,7 +179,7 @@
 <p>Course meetings will be every Tuesday from 5:15-6:45pm ET. Office hours will be held weekly unless announced otherwise. Details can be found in our logistics Ed post.</p>
 <h2 id="course-materials"><a class="header" href="#course-materials">Course Materials</a></h2>
 <p>Rust’s official book, The Rust Programming Language (RPL), is the reference we will use for this course. It is free, available online, and a great way to learn the programming language!</p>
-<p>In addition, this course supplements the theoretical knowledge with more practical Rust, such as its common libraries and applications. Lecture notes will be provided that cover everything taught in this course that is not in the book. </p>
+<p>In addition, this course supplements the theoretical knowledge with more practical Rust, such as its common libraries and applications.</p>
 <h2 id="grading"><a class="header" href="#grading">Grading</a></h2>
 <ul>
 <li>50% Homework</li>
@@ -188,6 +188,10 @@
 </ul>
 <p>Homework assignments will consist of 4 medium-size projects that lead students through the implementation and application of concepts and tools discussed in lectures, and will be graded on correctness and completeness. An open-ended final project will give students the chance to showcase an interesting project using tools discussed in the course.</p>
 <p><strong>Homework assignments will be due Sunday night at 11:59pm ET. Homework assignments can be submitted late, up to the start of the next class, for a 10% penalty per day late.</strong></p>
+<p><strong>Extra Credit</strong>: The homework assignments will have optional extra credit. Some are designed to introduce you to common Rust libraries, design patterns, and application. These will be worth up to 10% of your final grade.</p>
+<blockquote>
+<p><strong>Collaboration Policy</strong>: All homeworks are meant to be completed individually, with the exception of HW3: Tetris Tournament and the Final Project, where you can work in groups of 1-2.</p>
+</blockquote>
 <h2 id="academic-honesty"><a class="header" href="#academic-honesty">Academic Honesty</a></h2>
 <p>This course will abide by the University’s Code of Academic Integrity.</p>
 <p>For this course, you may not view, share or edit another student’s homework assignment. However, you are allowed (and strongly encouraged) to use the internet when completing homework assignments. Being able to read Open Source documentation and Stack Overflow posts is a crucial skill in being a developer. That being said, you are not allowed to make any posts online asking for help. Reading existing posts is allowed, but any questions should be asked during Office Hours or on Ed.</p>
