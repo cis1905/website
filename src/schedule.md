@@ -16,7 +16,7 @@
 | 3/12/2024     | 7. Concurrency                          |        |
 | 3/12/2024     | Final Project Proposals Due             |        |
 | 3/19/2024     | 8. Concurrency (cont.)                  |        |
-| 3/24/2024     | HW3: Beat Tetris Due                    |        |
+| 3/24/2024     | HW3: Tetris Tournament Due              |        |
 | 3/26/2024     | 9. Futures                              |        |
 | 4/2/2024      | 10. Networking                          |        |
 | 4/9/2024      | 11. Networking (cont.)                  |        |
