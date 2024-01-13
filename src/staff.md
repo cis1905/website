@@ -5,7 +5,7 @@ We're super excited to be teaching this course! If you have any questions, pleas
 
 | Name | Email | Office Hours | |
 |:------------:|---------|--------------|-----------------|
-| ![Joy Liu](./assets/joy.jpeg) <br>Joy Liu | [joyliu@seas](joyliu@seas.upenn.edu) | OH (TBD) | cargo fast	🚗 and I go laugh |
+| ![Joy Liu](./assets/joy.jpeg) <br>Joy Liu | [joyliu@seas](joyliu@seas.upenn.edu) | OH (TBD) | cargo fast	🚗 |
 
 ## Teaching Assistants
 
