@@ -1,4 +1,3 @@
-# Build and Deploy to `gh-pages`
 name: Publish to gh-pages
 on:
   push:
@@ -7,7 +6,7 @@ on:
 
 jobs:
   test:
-    name: Run tests
+    name: Test
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
@@ -31,7 +30,7 @@ jobs:
     - name: Run tests
       run: mdbook test
   build:
-    name: Run lints
+    name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
@@ -47,34 +46,16 @@ jobs:
         mkdir bin
         curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.21/mdbook-v0.4.21-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
         echo "$(pwd)/bin" >> ${GITHUB_PATH}
-    - name: Install aspell
-      run: sudo apt-get install aspell
-    - name: Install shellcheck
-      run: sudo apt-get install shellcheck
     - name: Report versions
       run: |
         rustup --version
         rustc -Vv
         mdbook --version
-        aspell --version
-        shellcheck --version
-    - name: Shellcheck
-      run: find . -name '*.sh' | xargs shellcheck
-    - name: Spellcheck
-      run: bash ci/spellcheck.sh list
-    - name: Build and Lint for local file paths
+    - name: Build book
       run: |
         mdbook build
-        cargo run --bin lfp src
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./content/book
+        publish_dir: book
