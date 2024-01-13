@@ -1,1 +1,4 @@
-book
+# Ignore everything
+*
+!book
+!.gitignore
