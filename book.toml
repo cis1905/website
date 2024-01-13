@@ -1,0 +1,6 @@
+[book]
+authors = ["Joy Liu"]
+language = "en"
+multilingual = false
+src = "src"
+title = "CIS 1905: Rust"
