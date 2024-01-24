@@ -1,28 +1,28 @@
 # Schedule
 
-| Date          | Topic                                         | Slides | Rustbook Chapters                                                                            |
-| ------------- | --------------------------------------------- | ------ | -------------------------------------------------------------------------------------------- |
-| 1/23/2024     | Introductions and Rust Basics                 |        | 1-3, 5-6, 8, 18                                                                              |
-| 1/30/2024     | Ownership, Result/Options, and Error Handling |        | 4, 9                                                                                         |
-| 1/31/2024     | Add/Drop Deadline                             |        |                                                                                              |
-| 2/4/2024      | HW1: CLI App Due                              |        |                                                                                              |
-| 2/6/2024      | Cargo, Modularization, and Testing            |        | 7, 11                                                                                        |
-| 2/13/2024     | Generics, Traits                              |        | 10.1-10.2                                                                                    |
-| 2/18/2024     | HW2: Markov Model Due                         |        |                                                                                              |
-| 2/20/2024     | Lifetimes                                     |        | 10.3                                                                                         |
-| 2/27/2024     | Drop Deadline                                 |        |                                                                                              |
-| 2/27/2024     | Smart Pointers                                |        | 15                                                                                           |
-| 3/2-3/10/2024 | Spring break                                  |        |                                                                                              |
-| 3/12/2024     | Concurrency                                   |        | 16                                                                                           |
-| 3/12/2024     | Final Project Proposals Due                   |        |                                                                                              |
-| 3/19/2024     | Concurrency (cont.)                           |        |                                                                                              |
-| 3/24/2024     | HW3: Tetris Tournament Due                    |        |                                                                                              |
-| 3/26/2024     | Futures                                       |        | [library-specific docs](https://rust-lang.github.io/async-book/08_ecosystem/00_chapter.html) |
-| 4/2/2024      | Networking                                    |        | (Supplemental) 20                                                                            |
-| 4/9/2024      | Networking (cont.)                            |        |                                                                                              |
-| 4/14/2024     | HW4: Systems and Application Due              |        | 19.5                                                                                         |
-| 4/16/2024     | Macros                                        |        |                                                                                              |
-| 4/23/2024     | Advanced Topics                               |        |                                                                                              |
-| 4/30/2024     | Final Project Presentations                   |        |                                                                                              |
+| Date          | Topic                                                                                                                           |                                      Rustbook Chapters                                       |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------: |
+| 1/23/2024     | [Introductions and Rust Basics](https://docs.google.com/spreadsheets/d/11beD7_DOrVxIgps7OzPGMO20TmjLqw4yRc0ZASj6Kpw/edit#gid=0) |                                                                                              | 1-3, 5-6, 8, 18                                                                              
+| 1/30/2024     | Ownership, Result/Options, and Error Handling                                                                                   |                                             4, 9                                             |
+| 1/31/2024     | Add/Drop Deadline                                                                                                               |                                                                                              |
+| 2/4/2024      | HW1: CLI App Due                                                                                                                |                                                                                              |
+| 2/6/2024      | Cargo, Modularization, and Testing                                                                                              |                                            7, 11                                             |
+| 2/13/2024     | Generics, Traits                                                                                                                |                                          10.1-10.2                                           |
+| 2/18/2024     | HW2: Markov Model Due                                                                                                           |                                                                                              |
+| 2/20/2024     | Lifetimes                                                                                                                       |                                             10.3                                             |
+| 2/27/2024     | Drop Deadline                                                                                                                   |                                                                                              |
+| 2/27/2024     | Smart Pointers                                                                                                                  |                                              15                                              |
+| 3/2-3/10/2024 | Spring break                                                                                                                    |                                                                                              |
+| 3/12/2024     | Concurrency                                                                                                                     |                                              16                                              |
+| 3/12/2024     | Final Project Proposals Due                                                                                                     |                                                                                              |
+| 3/19/2024     | Concurrency (cont.)                                                                                                             |                                                                                              |
+| 3/24/2024     | HW3: Tetris Tournament Due                                                                                                      |                                                                                              |
+| 3/26/2024     | Futures                                                                                                                         | [library-specific docs](https://rust-lang.github.io/async-book/08_ecosystem/00_chapter.html) |
+| 4/2/2024      | Networking                                                                                                                      |                                      (Supplemental) 20                                       |
+| 4/9/2024      | Networking (cont.)                                                                                                              |                                                                                              |
+| 4/14/2024     | HW4: Systems and Application Due                                                                                                |                                             19.5                                             |
+| 4/16/2024     | Macros                                                                                                                          |                                                                                              |
+| 4/23/2024     | Advanced Topics                                                                                                                 |                                                                                              |
+| 4/30/2024     | Final Project Presentations                                                                                                     |                                                                                              |
 
 Note: course logistics and deadlines are subject to change.
