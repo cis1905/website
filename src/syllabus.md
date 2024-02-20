@@ -18,7 +18,7 @@ In addition, this course supplements the theoretical knowledge with more practic
 
 Homework assignments will consist of 4 medium-size projects that lead students through the implementation and application of concepts and tools discussed in lectures, and will be graded on correctness and completeness. An open-ended final project will give students the chance to showcase an interesting project using tools discussed in the course.
 
-**Homework assignments will be due Sunday night at 11:59pm ET. Homework assignments can be submitted late, up to the start of the next class, for a 10% penalty per day late.**
+**Homework assignments will be due Monday night at 11:59pm ET. Homework assignments can be submitted late, up to the start of the next class, for a 10% penalty per day late.**
 
 **Extra Credit**: The homework assignments will have optional extra credit. Some are designed to introduce you to common Rust libraries, design patterns, and application. These will be worth up to 10% of your final grade.
 
