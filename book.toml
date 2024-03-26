@@ -1,0 +1,11 @@
+[book]
+authors = ["Joy Liu"]
+language = "en"
+multilingual = false
+src = "src"
+title = "CIS 1905: Rust"
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "navy"
+no-section-label = true
