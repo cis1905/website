@@ -22,8 +22,8 @@
 |   4/9/2024    |                                                    HW3: Tetris Tournament Check-in                                                    |                                                                                              |
 |   4/9/2024    |                                                        Practical Rust (cont.)                                                         |                                                                                              |
 |   4/15/2024   |                                                      HW3: Tetris Tournament Due                                                       |                                             19.5                                             |
-|   4/16/2024   |                                                                Macros                                                                 |                                                                                              |
-|   4/23/2024   |                                                            Advanced Topics                                                            |                                                                                              |
+|   4/16/2024   |                                                                Tetris                                                                 |                                                                                              |
+|   4/23/2024   |                                                  Advanced Topics + Tetris Tournament                                                  |                                                                                              |
 |   4/30/2024   |                                                      Final Project Presentations                                                      |                                                                                              |
 
 Note: course logistics and deadlines are subject to change.
